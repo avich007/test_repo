@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header{
+    background-color: #1B2631;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.links{
+    list-style-type:none;
+    display: flex;
+}
+
+.listItem{
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    width: 25%;
+    margin-top: 60px;
+    margin-left: 100px;
+    height: 100px;
+    flex: 1;
+}
+
+footer{
+    padding: 30px;
+    background-color: #1B2631;
+    color:white;
+    text-align: center;
+    
+}
+
+#loginform{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 3px;
+    margin-bottom: 15px;
+}
+
+.btnLogin{
+    background-color: #0D47A1;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}

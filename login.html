@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+    <body>
+        <header>
+            <h1>Login</h1>
+            <nav>
+                <ul class="links">
+                    <li class="listItem"><a href="#">Home</a></li>
+                    <li class="listItem"><a href="#">About</a></li>
+                    <li class="listItem"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <form id="loginform">
+                <label for="username"><span class="fa fa-user"></span>&nbsp;Username</label>
+                <input type="text" id="username" required>
+                <label for="password"><span class="fa fa-lock"></span>&nbsp;Password</label>
+                <input type="password" id="password" required>
+                <button id="btnSubmit" class="btnLogin" type="submit">Login</button>
+            </form>
+        </div>
+        <footer>
+            <p>&copy; 2023 Login Page. All rights reserved.</p>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+        <script src="login.js" type="text/javascript"></script>
+    </body>
+</html>
